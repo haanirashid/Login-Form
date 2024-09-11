@@ -15,12 +15,12 @@ function clickData() {
     nameArray.push(inputName);
     emailArray.push(inputEmail);
     passArray.push(inputPassword);
-    console.log(nameArray);
-    console.log(emailArray);
-    console.log(passArray);
     domName.innerHTML = nameArray;
     domemail.innerHTML = emailArray;
     dompass.innerHTML = passArray;
+    console.log(nameArray);
+    console.log(emailArray);
+    console.log(passArray);
 };
 
 function submitData(event) {
@@ -33,5 +33,8 @@ function submitData(event) {
     domName.innerHTML = nameArray;
     domemail.innerHTML = emailArray;
     dompass.innerHTML = passArray;
+    console.log(nameArray);
+    console.log(emailArray);
+    console.log(passArray);
     event.preventDefault();
 }
