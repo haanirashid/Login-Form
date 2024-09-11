@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Hani Rashid</h1>
+        <h1>Batch-12 Roll number 286943</h1>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="form_area">
+                <p class="title">SIGN UP</p>
+                <form action="" onsubmit="submitData()">
+                    <div class="form_group">
+                        <label class="sub_title" for="name">Name</label>
+                        <input placeholder="Enter your full name" id="name" class="form_style" type="text">
+                    </div>
+                    <div class="form_group">
+                        <label class="sub_title" for="email">Email</label>
+                        <input placeholder="Enter your email" id="email" class="form_style" type="email">
+                    </div>
+                    <div class="form_group">
+                        <label class="sub_title" for="password">Password</label>
+                        <input placeholder="Enter your password" id="password" class="form_style" type="password">
+                    </div>
+                    <div>
+                        <button class="btn" onclick="clickData()">SIGN UP</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="data">
+        <div class="header">
+            <h1>User Data</h1>
+        </div>
+        <div class="sub" id="data">
+            <h2>Name :</h2>
+            <h2 id="naam"></h2>
+            <h2>Eamil :</h2>
+            <h2 id="mail"></h2>
+            <h2>Password :</h2>
+            <h2 id="pass"></h2>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
